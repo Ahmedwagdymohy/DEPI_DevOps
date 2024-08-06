@@ -10,3 +10,6 @@
 [submodule "Jenkins-Projects/Gtest-with-Jenkins"]
 	path = Jenkins-Projects/Gtest-with-Jenkins
 	url = https://github.com/Ahmedwagdymohy/Gtest-with-Jenkins
+[submodule "Linux/Linux-Projects/Wifi_Hotspot_Linux"]
+	path = Linux/Linux-Projects/Wifi_Hotspot_Linux
+	url = https://github.com/Ahmedwagdymohy/Wifi_Hotspot_Linux
