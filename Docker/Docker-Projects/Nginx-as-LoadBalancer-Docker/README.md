@@ -1,5 +1,5 @@
-# Nginx As A LoadBalancer Using Docker
-#### In this Guide we will discuss how to setup multible servers on containers and make a Nginx container acts as a load balancer
+# 📌 Nginx As A LoadBalancer Using Docker 📌
+####  👨‍💻 In this Guide we will discuss how to setup multible servers on containers and make a Nginx container acts as a load balancer
 What's LoadBalancer : \
 ![image](https://github.com/user-attachments/assets/bbf939cc-f49e-4bd3-ae44-8cae6390ceaa)
 
@@ -7,7 +7,7 @@ What's LoadBalancer : \
 \
 Load balancer is just like a router, it efficiently distributing incoming network traffic and also the method to solve high concurrency problem. In this Guide, I will use Nginx and docker to build load balancer, hope you guys will like it.
 
-### How to Write Nginx conf file 
+### How to Write Nginx conf file ❓
 we need to define upstream directive and choose the load balancing method.
 ```bash
 http {
@@ -29,14 +29,14 @@ http {
 2. server `{ip of the server}` Normally you need to type the ip of the server, but we are going to use docker to build our server. Therfore, we can use the name in docker-compose file to substitute the ip.
 3. `loaction/ proxy_pass http://{group name}` To pass requests to a server group, the name of the group is specified in the proxy_pass directive
 
-#### methods of load balancing:
+#### 💻 methods of load balancing:
 -   Round Robin(default) : Requests are distributed evenly across the servers, with server weights taken into consideration.
 -   Least Connections : A request is sent to the server with the least number of active connections.
 -   Ip Hash : Request is determined from the client IP address, which will guarantees that same address get same server.
 -   Generic Hash : Request is determined from the user-define key.
 
 
-#### Server weight
+#### ⚙ Server weight
 Nginx using Round Robin as method, the weight of each server is set as 1 in default. However you can set the weight whatever you want.
 ```
 upstream loadbalancer{

@@ -1,5 +1,5 @@
-# How to start MongoDB with Mongo Express using Docker
-## 1- Using Command Line:
+# How to start MongoDB with Mongo Express using Docker 🐳
+## 1- Using Command Line ✔:
 -   Download Docker and Docker-compose 
 -   Download MongoDB Image from [here](https://hub.docker.com/_/mongo) 
 -   Download MongoExpress Image from [here](https://hub.docker.com/_/mongo-express)
@@ -34,7 +34,7 @@ docker ps
 
 
 
-## 2- Using Docker-Compse:
+## 2- Using Docker-Compse ✔:
 - create a `Docker-compose.yml` file and use the following code :
 ```yml
 version: '3.8'

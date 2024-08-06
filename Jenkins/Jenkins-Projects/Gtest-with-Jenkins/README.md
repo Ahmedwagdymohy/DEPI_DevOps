@@ -1,5 +1,5 @@
-## How to automate Building C and Making unit test using GoogleTest with Jenkins :
-### The batch script we use inside Jenkins to build and run the Cmake of the Gtest 
+## 📌 How to Automate Building C and Making unit test using GoogleTest with Jenkins :
+####  📁 The batch script we use inside Jenkins to build and run the Cmake of the Gtest 
 ```bat
 set BUILD_DIR=build
 if exist %BUILD_DIR% (
