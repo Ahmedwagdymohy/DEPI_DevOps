@@ -4,3 +4,6 @@
 [submodule "Docker-Projects/Mongodb-with-MongoExpress"]
 	path = Docker-Projects/Mongodb-with-MongoExpress
 	url = https://github.com/Ahmedwagdymohy/Mongodb-with-MongoExpress
+[submodule "Docker-Projects/Nginx-as-LoadBalancer-Docker"]
+	path = Docker-Projects/Nginx-as-LoadBalancer-Docker
+	url = https://github.com/Ahmedwagdymohy/Nginx-as-LoadBalancer-Docker.git
